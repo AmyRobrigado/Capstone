@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   
+    <!-- Styling -->
+    <style type="text/css">
+        body {
+            background-color: #fef5f5;
+            font-family: 'Libre Baskerville', 'serif';
+        }
+    </style>
+
+    <!-- Header -->
+    <div>
+        <img src="/images/text-1665446295630.png" class="mx-auto d-block " alt="">
+    </div>
+
+    <!-- Tabs -->
     <div class="tabs-to-dropdown">
-        <div class="nav-wrapper d-flex align-items-center justify-content-between">
+        <div class="nav-wrapper d-flex align-items-center justify-content-center">
           <ul class="nav nav-pills d-none d-md-flex" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <a class="nav-link active" id="pills-company-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-company" aria-selected="true">About</a>
@@ -19,17 +35,19 @@
               <a class="nav-link" id="pills-product-tab" data-toggle="pill" href="#pills-product" role="tab" aria-controls="pills-product" aria-selected="false">Shop</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news" aria-selected="false">Comissions</a>
+              <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news" aria-selected="false">Commissions</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"></a>
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Login</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Login</a>
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Cart</a>
               </li>
           </ul>
-          <!-- Social Media Links -->
-          <ul class="list-group list-group-horizontal">
+        </div>
+        <!-- Social Media Icons -->
+        <div>
+          <ul class=" list-inline justify-content-center list-group list-group-horizontal">
             <li class="list-group-item">
               <a href="">
                 <img src="/images/icons8-instagram-100.png" alt="" width="60px">
@@ -52,7 +70,7 @@
             </li>
           </ul>
         </div>
-      
+        <!-- Text -->
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-company" role="tabpanel" aria-labelledby="pills-company-tab">
             <div class="container-fluid">
