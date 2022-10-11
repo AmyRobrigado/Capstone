@@ -17,7 +17,6 @@ body {
 
 .img-header {
     padding: 10px;
-    background-color: #f8dad8;
 }
 
 .tabs-to-dropdown .nav-wrapper a {
@@ -35,6 +34,16 @@ body {
 }
 
 /* Shop Page */
+#dropdownMenuLink {
+    background-color: #375795;
+}
 
+.dropdown {
+    text-align: center;
+    margin: 5px;
+}
 
-
+/* Login Page */
+.form {
+    
+}
