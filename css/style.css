@@ -1,8 +1,10 @@
+/* All Pages */
 body {
     background-color: #fef5f5;
     font-family: 'Libre Baskerville', 'serif';
 }
 
+/* About Page */
 #about-me {
     font-weight: bold;
     color: #375795;
@@ -31,4 +33,8 @@ body {
     max-width: 1250px;
     padding-top: 15px;
 }
+
+/* Shop Page */
+
+
 
