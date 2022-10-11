@@ -1,0 +1,34 @@
+body {
+    background-color: #fef5f5;
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+#about-me {
+    font-weight: bold;
+    color: #375795;
+}
+
+.tab-content {
+    text-align: center;
+    color: #506080;
+}
+
+.img-header {
+    padding: 10px;
+    background-color: #f8dad8;
+}
+
+.tabs-to-dropdown .nav-wrapper a {
+    color: #ebbabb;
+    padding: 15px 30px;
+}
+
+.tabs-to-dropdown .nav-pills .nav-link.active {
+    background-color: #c88384;
+}
+
+.tabs-to-dropdown .tab-content .container-fluid {
+    max-width: 1250px;
+    padding-top: 15px;
+}
+
