@@ -4,38 +4,52 @@ body {
     font-family: 'Libre Baskerville', 'serif';
 }
 
+
+
 /* About Page */
 #about-me {
     font-weight: bold;
     color: #375795;
 }
 
-.tab-content {
+h2 {
     text-align: center;
-    color: #506080;
 }
 
-.img-header {
-    padding: 10px;
+p {
+    width: 500px;
+    font-size: 15px;
+    
+   
 }
 
-.tabs-to-dropdown .nav-wrapper a {
-    color: #ebbabb;
-    padding: 15px 30px;
+ul {
+    list-style: none;
+    text-align: center;
 }
 
-.tabs-to-dropdown .nav-pills .nav-link.active {
-    background-color: #c88384;
+img {
+    align-items: center;
 }
 
-.tabs-to-dropdown .tab-content .container-fluid {
-    max-width: 1250px;
-    padding-top: 15px;
-}
+
+
+
+
 
 /* Shop Page */
 #dropdownMenuLink {
     background-color: #375795;
+}
+
+#select {
+    padding: 5px;
+    margin: 0px;
+}
+
+#cart {
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .dropdown {
@@ -43,7 +57,8 @@ body {
     margin: 5px;
 }
 
+
+
 /* Login Page */
-.form {
-    
-}
+
+
