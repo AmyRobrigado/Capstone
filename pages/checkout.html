@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/cart.css">
 </head>
 
 <body>
@@ -32,19 +32,19 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link mx-2 active" aria-current="page" href="#">About Me</a>
+          <a class="nav-link mx-2" aria-current="page" href="home.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Shop</a>
+          <a class="nav-link mx-2" href="products.html">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Commissions</a>
+          <a class="nav-link mx-2" href="services.html">Commissions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Join</a>
+          <a class="nav-link mx-2" href="login.html">Join</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Cart</a>
+          <a class="nav-link mx-2 active" href="checkout.html">Cart</a>
         </li>
       </ul>
     </div>
@@ -79,81 +79,79 @@
       </div>
     </div>
 
-    <!-- Text -->
-    <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-company" role="tabpanel" aria-labelledby="pills-company-tab">
-        <div class="container-fluid">
-          <h2 id="about-me">About Me</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis
-            facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit
-            amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet. Ut a blandit
-            elit, vitae volutpat nunc. Nam posuere urna sagittis lectus eleifend viverra. Quisque mauris nunc, viverra
-            vitae sodales non, auctor in diam. Sed dignissim pulvinar sapien sed fermentum. Praesent interdum turpis ut
-            neque tristique ornare. Nam dictum est sed sem elementum rutrum. Nam a mollis turpis.</p>
-          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque
-            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam tempus ac est
-            convallis accumsan. Donec rhoncus condimentum leo nec cursus. Fusce a ornare nisl, id fermentum sem.
-            Praesent pretium dui magna, in aliquam lectus tempor sed. Donec maximus lectus quis vehicula gravida. Proin
-            odio nisi, aliquet ac ipsum quis, auctor semper leo. Curabitur vitae justo vel augue varius cursus non quis
-            est. Nunc vulputate nunc nibh, sed tempus erat tincidunt eget. Duis a lacus at nulla porttitor tincidunt.
-            Vestibulum euismod elementum mi ut tincidunt. Suspendisse tempus, mi et imperdiet maximus, est turpis
-            placerat massa, at venenatis sem elit ut ex. Donec non aliquam odio. Curabitur ut leo vitae magna lobortis
-            accumsan. Phasellus viverra eu leo non rhoncus.</p>
-          <p>Pellentesque rutrum sit amet nunc sit amet faucibus. Ut id arcu tempus, varius erat et, ornare libero. In
-            quis felis nunc. Aliquam euismod lacus a eros ornare, ut aliquam sem mattis. Cras non varius dui, quis
-            commodo ante. Maecenas gravida est non nulla malesuada egestas. Proin tincidunt eros et lacus sodales
-            lobortis.</p>
-        </div>
+    <!-- Checkout -->
+    <div class="card">
+      <div class="row">
+          <div class="col-md-8 cart">
+              <div class="title">
+                  <div class="row">
+                      <div class="col"><h4><b>Shopping Cart</b></h4></div>
+                      <div class="col align-self-center text-right text-muted">3 items</div>
+                  </div>
+              </div>    
+              <div class="row border-top border-bottom">
+                  <div class="row main align-items-center">
+                      <div class="col-2"><img class="img-fluid" src="/images/Amara.png"></div>
+                      <div class="col">
+                          <div class="row text-muted">Amara</div>
+                          <div class="row">12x12</div>
+                      </div>
+                      <div class="col">
+                          <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                      </div>
+                      <div class="col">$ 20.00 <span class="close">&#10005;</span></div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="row main align-items-center">
+                      <div class="col-2"><img class="img-fluid" src="/images/Zeus (Main).png"></div>
+                      <div class="col">
+                          <div class="row text-muted">Zeus</div>
+                          <div class="row">10x10</div>
+                      </div>
+                      <div class="col">
+                          <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                      </div>
+                      <div class="col">$ 15.00 <span class="close">&#10005;</span></div>
+                  </div>
+              </div>
+              <div class="row border-top border-bottom">
+                  <div class="row main align-items-center">
+                      <div class="col-2"><img class="img-fluid" src="/images/Sariel.png"></div>
+                      <div class="col">
+                          <div class="row text-muted">Sariel</div>
+                          <div class="row">8x8</div>
+                      </div>
+                      <div class="col">
+                          <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                      </div>
+                      <div class="col">$ 10.00 <span class="close">&#10005;</span></div>
+                  </div>
+              </div>
+              <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
+          </div>
+          <div class="col-md-4 summary">
+              <div><h5><b>Summary</b></h5></div>
+              <hr>
+              <div class="row">
+                  <div class="col" style="padding-left:0;">ITEMS 3</div>
+                  <div class="col text-right">$ 45.00</div>
+              </div>
+              <form>
+                  <p>SHIPPING</p>
+                  <select><option class="text-muted">Standard-Delivery- $5.00</option></select>
+                  <p>GIVE CODE</p>
+                  <input id="code" placeholder="Enter your code">
+              </form>
+              <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                  <div class="col">TOTAL PRICE</div>
+                  <div class="col text-right">$ 50.00</div>
+              </div>
+              <button class="btn">CHECKOUT</button>
+          </div>
       </div>
-      <div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-product-tab">
-        <div class="container-fluid">
-          <h2 class="mb-3 font-weight-bold">Product</h2>
-          <p>Sed auctor urna sit amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus
-            imperdiet. Ut a blandit elit, vitae volutpat nunc. Nam posuere urna sagittis lectus eleifend viverra.
-            Quisque mauris nunc, viverra vitae sodales non, auctor in diam. Sed dignissim pulvinar sapien sed fermentum.
-            Praesent interdum turpis ut neque tristique ornare. Nam dictum est sed sem elementum rutrum. Nam a mollis
-            turpis.</p>
-          <p>Proin odio nisi, aliquet ac ipsum quis, auctor semper leo. Curabitur vitae justo vel augue varius cursus
-            non quis est. Nunc vulputate nunc nibh, sed tempus erat tincidunt eget. Duis a lacus at nulla porttitor
-            tincidunt. Vestibulum euismod elementum mi ut tincidunt. Suspendisse tempus, mi et imperdiet maximus, est
-            turpis placerat massa, at venenatis sem elit ut ex. Donec non aliquam odio. Curabitur ut leo vitae magna
-            lobortis accumsan. Phasellus viverra eu leo non rhoncus.</p>
-          <p>Pellentesque rutrum sit amet nunc sit amet faucibus. Ut id arcu tempus, varius erat et, ornare libero. In
-            quis felis nunc. Aliquam euismod lacus a eros ornare, ut aliquam sem mattis. Cras non varius dui, quis
-            commodo ante. Maecenas gravida est non nulla malesuada egestas.</p>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">
-        <div class="container-fluid">
-          <h2 class="mb-3 font-weight-bold">News</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis
-            facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit
-            amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet.</p>
-          <p>Proin maximus iaculis rhoncus. Morbi ante nibh, facilisis semper faucibus consequat, facilisis ut ante.
-            Mauris at nisl vitae justo auctor imperdiet. Cras sodales, justo sed tincidunt venenatis, ante erat
-            ultricies eros, at mollis eros lorem ac mi. Fusce sagittis nibh nunc. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae; Donec mollis eros sodales convallis faucibus.
-            Vestibulum sit amet odio lectus. Duis eu dolor vitae est venenatis viverra eu sit amet nisl. Aenean vel
-            sagittis odio. Quisque in lacus orci. Etiam ut odio lobortis odio consectetur ornare.</p>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-        <div class="container-fluid">
-          <h2 class="mb-3 font-weight-bold">Contact</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor leo nec ligula viverra, quis
-            facilisis nunc vehicula. Maecenas purus orci, efficitur in dapibus vel, rutrum in massa. Sed auctor urna sit
-            amet eros mattis interdum. Integer imperdiet ante in quam lacinia, a laoreet risus imperdiet.</p>
-          <p>Proin maximus iaculis rhoncus. Morbi ante nibh, facilisis semper faucibus consequat, facilisis ut ante.
-            Mauris at nisl vitae justo auctor imperdiet. Cras sodales, justo sed tincidunt venenatis, ante erat
-            ultricies eros, at mollis eros lorem ac mi. Fusce sagittis nibh nunc. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae; Donec mollis eros sodales convallis faucibus.
-            Vestibulum sit amet odio lectus. Duis eu dolor vitae est venenatis viverra eu sit amet nisl. Aenean vel
-            sagittis odio. Quisque in lacus orci. Etiam ut odio lobortis odio consectetur ornare.</p>
-        </div>
-      </div>
-    </div>
+      
   </div>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

@@ -18,13 +18,13 @@
   <!-- Navbar -->
   <!-- Navbar -->
   <div class="text-center p-3 d-none d-md-block">
-    <img src="/images/text-1665599493648.png" alt="">
+    <img src="/images/text-1665446295630.png" alt="">
   </div>
 
   <nav class="navbar navbar-expand-md">
     <div class="container">
       <a class="navbar-brand d-md-none d-xs-block py-3" href="#">
-        <img src="/images/text-1665599493648.png" alt="">
+        <img src="/images/text-1665446295630.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
             <a class="nav-link mx-2" aria-current="page" href="home.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="products.html">Shop</a>
+            <a class="nav-link mx-2 active" href="products.html">Shop</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="services.html">Commissions</a>
@@ -81,61 +81,47 @@
     </div>
   </div>
 
-  <!-- Cards -->
-  <div class="dropdown">
-    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-      aria-expanded="false">
-      Shop
-    </a>
-
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <li><a class="dropdown-item" href="products.html">Prints</a></li>
-      <li><a class="dropdown-item" href="stationary.html">Stationary</a></li>
-    </ul>
-  </div>
-
   <h2>Prints</h2>
 
   <!-- Card 1 -->
   <section id="gallery">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="/images/Amara.png" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Amara</h5>
-              <p class="card-text"></p>
+        <div class="row card-deck">
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="/images/Amara.png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Amara</h5>
+                <p class="card-text"></p>
 
-              <select id="select" class="form-select" aria-label="Default select example">
-                <option selected>Print Size</option>
-                <option value="8x8">8x8</option>
-                <option value="10x10">10x10</option>
-                <option value="12x12">12x12</option>
-              </select>
+                <select id="select" class="form-select" aria-label="Default select example">
+                  <option selected>Print Size</option>
+                  <option value="8x8">8x8 - $10.00</option> 
+                  <option value="10x10">10x10 - $15.00</option>
+                  <option value="12x12">12x12 - $20.00</option>
+                </select>
+              </div>
+              <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
             </div>
-            <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
           </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="/images/Zeus (Main).png" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Zeus</h5>
-              <p class="card-text"></p>
+          <!-- Card 2 -->
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="/images/Zeus (Main).png" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Zeus</h5>
+                <p class="card-text"></p>
 
-              <select id="select" class="form-select" aria-label="Default select example">
-                <option selected>Print Size</option>
-                <option value="8x8">8x8</option>
-                <option value="10x10">10x10</option>
-                <option value="12x12">12x12</option>
-              </select>
+                <select id="select" class="form-select" aria-label="Default select example">
+                  <option selected>Print Size</option>
+                  <option value="8x8">8x8 - $10.00</option> 
+                  <option value="10x10">10x10 - $15.00</option>
+                  <option value="12x12">12x12 - $20.00</option>
+                </select>
+              </div>
+              <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
             </div>
-            <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
           </div>
-          </div>
-        </div>
         <!-- Card 3 -->
         <div class="col-lg-4 mb-4">
           <div class="card">
@@ -146,73 +132,69 @@
 
               <select id="select" class="form-select" aria-label="Default select example">
                 <option selected>Print Size</option>
-                <option value="8x8">8x8</option>
-                <option value="10x10">10x10</option>
-                <option value="12x12">12x12</option>
+                <option value="8x8">8x8 - $10.00</option> 
+                  <option value="10x10">10x10 - $15.00</option>
+                  <option value="12x12">12x12 - $20.00</option>
               </select>
             </div>
             <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
-          </div>
           </div>
         </div>
-        <!-- Card 4 -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="/images/Holly (Main).png" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Holly</h5>
-              <p class="card-text"></p>
+      <!-- Card 4 -->
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img src="/images/Holly (Main).png" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Holly</h5>
+            <p class="card-text"></p>
 
-              <select id="select" class="form-select" aria-label="Default select example">
-                <option selected>Print Size</option>
-                <option value="8x8">8x8</option>
-                <option value="10x10">10x10</option>
-                <option value="12x12">12x12</option>
-              </select>
-            </div>
-            <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
+            <select id="select" class="form-select" aria-label="Default select example">
+              <option selected>Print Size</option>
+              <option value="8x8">8x8 - $10.00</option> 
+                  <option value="10x10">10x10 - $15.00</option>
+                  <option value="12x12">12x12 - $20.00</option>
+            </select>
           </div>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="/images/Eiravien (Main).png" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Eiravien</h5>
-              <p class="card-text"></p>
-
-              <select id="select" class="form-select" aria-label="Default select example">
-                <option selected>Print Size</option>
-                <option value="8x8">8x8</option>
-                <option value="10x10">10x10</option>
-                <option value="12x12">12x12</option>
-              </select>
-            </div>
-            <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
-          </div>
-          </div>
-        </div>
-        <!-- Card 6 -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="/images/Cro'Theim (Main).png" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Cro'Theim</h5>
-              <p class="card-text"></p>
-
-              <select id="select" class="form-select" aria-label="Default select example">
-                <option selected>Print Size</option>
-                <option value="8x8">8x8</option>
-                <option value="10x10">10x10</option>
-                <option value="12x12">12x12</option>
-              </select>
-            </div>
-            <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
-          </div>
-          </div>
+          <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
         </div>
       </div>
+    <!-- Card 5 -->
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <img src="/images/Eiravien (Main).png" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Eiravien</h5>
+          <p class="card-text"></p>
+
+          <select id="select" class="form-select" aria-label="Default select example">
+            <option selected>Print Size</option>
+            <option value="8x8">8x8 - $10.00</option> 
+                  <option value="10x10">10x10 - $15.00</option>
+                  <option value="12x12">12x12 - $20.00</option>
+          </select>
+        </div>
+        <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <img src="/images/Cro'Theim (Main).png" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cro'Theim</h5>
+          <p class="card-text"></p>
+
+          <select id="select" class="form-select" aria-label="Default select example">
+            <option selected>Print Size</option>
+            <option value="8x8">8x8 - $10.00</option> 
+                  <option value="10x10">10x10 - $15.00</option>
+                  <option value="12x12">12x12 - $20.00</option>
+          </select>
+        </div>
+        <div id="cart"><a href="" id="cart" class="btn btn-outline-danger btn-sm">Add To Cart</a></div>
+      </div>
+    </div>
+    </div>
     </div>
   </section>
 
