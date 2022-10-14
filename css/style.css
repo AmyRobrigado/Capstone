@@ -35,7 +35,11 @@ h2 {
 
 
 
-/* Login - Sign Up Page*/ 
+/* Sign - Sign Up Page*/ 
+
+  .form-check-label {
+   list-style: none;
+  }
 
 
   .nav-link.active {
