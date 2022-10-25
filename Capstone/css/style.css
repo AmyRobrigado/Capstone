@@ -1,0 +1,107 @@
+/* All Pages */
+body {
+    background-color: #fef5f5;
+    font-family: 'Libre Baskerville', 'serif';
+    color: #99a2b3;
+}
+
+/* About Page */
+p {
+    padding: 5px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.about-list {
+    list-style: circle;
+    text-align: start;
+}
+
+/* Shop Page */
+
+.cart {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+option {
+  text-align: center;
+}
+
+/* Shop Page */
+h2 {
+  text-align: center;
+}
+
+
+
+/* Sign - Sign Up Page*/ 
+
+  .form-check-label {
+   list-style: none;
+  }
+
+
+  .nav-link.active {
+    color: #ebbabb !important;
+
+  }
+
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f8dad8;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 #ccd0d9;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #fffefe;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #99a2b3;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #506080;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
+
+
